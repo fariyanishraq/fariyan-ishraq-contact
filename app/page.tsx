@@ -2,7 +2,7 @@ import WhatsappBtn from "@/components/ui/whatsappBtn";
 import ProfilePic from "../assets/profile_pic.jpg";
 import Image from "next/image";
 import React from "react";
-import { FaSquareFacebook, FaSquareInstagram, FaSquareThreads, FaSquareGithub } from "react-icons/fa6";
+import { FaSquareFacebook, FaInstagram, FaThreads, FaGithub } from "react-icons/fa6";
 import WechatBtn from "@/components/ui/wechatBtn";
 
 type ContactType = {
@@ -36,19 +36,19 @@ export default function Home() {
       id: 3,
       name: 'Instagram',
       link:"https://www.instagram.com/ishraq_fariyan/",
-      icon:<FaSquareInstagram/>
+      icon:<FaInstagram/>
     },
     {
       id: 4,
       name:'Threads',
       link:'https://www.threads.net/@ishraq_fariyan',
-      icon:<FaSquareThreads/>
+      icon:<FaThreads/>
     },
     {
       id: 5,
       name: 'Github',
       link:'https://github.com/fariyanishraq',
-      icon: <FaSquareGithub/>
+      icon: <FaGithub/>
     }
   ];
   return (
