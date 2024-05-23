@@ -75,7 +75,7 @@ export default function Home() {
             <WechatBtn/>
           </div>
           <div>
-            <div className="flex flex-col gap-5">
+            <div className="flex flex-col gap-5 max-sm:w-[400px] max-sm:p-2">
               <p className="text-[18px] font-bold">Contact Links</p>
               <div className="w-full flex flex-col items-center gap-3">
                 {contactLinks.map((index) => (
